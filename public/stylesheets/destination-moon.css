@@ -1,0 +1,166 @@
+.destination-bg {
+    background-image: url("../assets/destination/background-destination-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.header-container a:nth-child(2) {
+    border-bottom: 3px solid white;
+    padding-bottom: 37px;
+}
+
+.header-container {
+    /* background-color: #083617a0;  */
+    
+    margin-top: 50px;
+    padding: 25px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container nav{
+    background-color: rgba(61, 60, 60, 0.23);
+    width: 50%;
+    padding: 40px;
+    position: absolute;
+    right: 0px;
+}
+
+.header-container img {
+    margin-left: 30px;
+}
+
+.header-container nav a {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+    margin-right: 60px;
+    margin-left: 60px;
+    text-decoration: none;
+}
+
+.pick-dest span {
+    font-weight: bold;
+    color: grey;
+    margin-right: 15px;
+}
+
+hr {
+    border: 1px solid rgba(61, 60, 60, 0.713);
+    width: 38%;
+    position: absolute;
+    left: 170px;
+}
+
+.middle-container {
+    /* background-color: rgba(0, 128, 0, 0.407); */
+
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    align-items: center;
+}
+
+h2 {
+    font-size: 100px;
+    font-family: 'Bellefair', serif;
+    color: white;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;  
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 4.75px;
+}
+
+p {
+    color: #D0D6F9;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    margin-top: 40px;
+    line-height: 1.3;
+}
+
+/* .pick-dest {
+    background-color: rgba(255, 0, 0, 0.294);
+} */
+
+.pick-dest img {
+    margin-left: 50px
+}
+
+.pick-dest h5 {    
+    margin-bottom: 100px;
+}
+
+/* .text {
+    background-color: rgba(0, 0, 255, 0.241);
+} */
+
+.text nav {
+    margin-bottom: 70px;
+}
+
+.text nav a {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #D0D6F9;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.text nav a:first-child {
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    color: white
+}
+
+.subheading-1 {
+    font-family: 'Bellefair', serif;
+    font-size: 28px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 10px
+}
+.subheading-2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2.35px;   
+    text-transform: uppercase;
+    margin-top: 90px;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .time hr {
+    border: 2px solid orange;
+    position: absolute;
+} */
+
+
+.text nav a:hover {
+    transition: 0.3s;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.601);
+    padding-bottom: 10px;
+}
+
+.header-container nav a:hover {
+    transition: 0.3s;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.601);
+    padding-bottom: 37px;
+}
